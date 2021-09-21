@@ -17,27 +17,29 @@
 
     <hr class="divider">
 
-    <div id=#menu class="menu">
-        <a href="#home">Home</a>
+    <div id="menu_external" class="menu">
         <a href="https://github.com/jestegs" target="_blank" rel="noreferrer noopener">GitHub</a>
         <a href="https://catmilk.itch.io" target="_blank" rel="noreferrer noopener">itch.io</a>
-        <a href="#">Dreams</a>
-        <a href="#">Art</a>
-        <a href="#">Writing</a>
-        <a href="#">Notebook</a>
+    </div>
+    <hr class="divider">
+    <div id="menu_internal" class="menu">
+        <a href="#home">Welcome</a>
+        <a href="#projects">Projects</a>
+        <a href="#dreams">Dreams</a>
+        <a href="#art">Art</a>
+        <a href="#writing">Writing</a>
+        <a href="#notebook">Notebook</a>
     </div>
 
     <hr class="divider">
 
     <div class="scrollArea">
-        <div id=#home class="contentBox">
-            <h2>
-                Home
-            </h2>
+        <div id="home" class="contentBox">
+            <h2>Welcome</h2>
             <hr class="divider">
-            <h3>
-                Hi!
-            </h3>
+            <hr class="divider">
+            <h3>Hi!</h3>
+            <hr class="divider">
             <p>
                 I'm Jacob Stegenga, currently a Mathematics/Computer Science student
                 at Salem State University.
@@ -49,11 +51,42 @@
             <p>
                 I am mainly focusing on personal programming projects and videogames that
                 you can find on my
-                <a class="inline_a" href="https://github.com/jestegs" target="_blank" rel="noreferrer noopener">GitHub</a> and 
-                <a class="inline_a" href="https://catmilk.itch.io" target="_blank" rel="noreferrer noopener">itch.io</a> 
-                pages above, but I also do some Art, keep a Dream Journal, and 
-                may (hopefully) get around to some Writing about topics that interest me.
+                <a class="inline_a" 
+                href="https://github.com/jestegs" 
+                target="_blank" 
+                rel="noreferrer noopener">GitHub</a> and 
+                <a class="inline_a" 
+                href="https://catmilk.itch.io" 
+                target="_blank" rel="noreferrer noopener">itch.io</a> 
+                pages above, but I also do some <a class="inline_a" href=#art>Art</a>, 
+                keep a <a class="inline_a" href=#dreams>Dream Journal</a>, and 
+                may (hopefully) get around to some 
+                <a class="inline_a" href=#writing>Writing</a> about topics that interest me.
             </p>
+        </div>
+        <br>
+        <p style="text-align: center;">more below...</p>
+        <br>
+        <div id="projects" class="contentBox">
+            <h2>Projects</h2>
+            <hr class="divider">
+            <hr class="divider">
+            <div class="project_info">
+                <h3>
+                    <a class="inline_a" 
+                    href="https://github.com/jestegs/py-game_a-star_project" 
+                    target="_blank" 
+                    rel="noreferrer noopener">A* Pathfinding Implementation</a>
+                </h3>
+                <hr class="divider">
+                <p>
+                    This is a duo-project my classmate and I did for our principles of A.I. class.
+                </p>
+                <p>
+                    It's a pretty straight forward implementation of the popular A-Star pathfinding
+                    algorithm, which is a more optimal version of Dijkstra's pathfinding algorithm.
+                </p>
+            </div>
         </div>
     </div>
 
