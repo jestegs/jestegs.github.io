@@ -4,6 +4,17 @@ body {
 
     border-color: lightsalmon;
 }
+::-webkit-scrollbar{
+    background: lightsalmon;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid lightsalmon;
+    background:darkslateblue;
+}
+::-webkit-scrollbar-button{
+    border: 1px solid lightsalmon;
+    background:darkslateblue;
+}
 
 .divider {
     border: none;
@@ -50,6 +61,17 @@ body {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.picGallery {
+    overflow: auto;
+    white-space: nowrap;
+}
+.picGallery img {
+    display: inline;
+    border-radius: 5%;
+    max-height: 400px;
+    min-height: 400px;
 }
 
 .inline_a {
