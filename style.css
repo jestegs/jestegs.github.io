@@ -85,3 +85,9 @@ body {
     color: darkslateblue;
     border-color: lightsalmon;
 }
+
+.copyright {
+    
+    text-align: right;
+    vertical-align: bottom;
+}
