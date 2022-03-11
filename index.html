@@ -10,10 +10,10 @@
         <h1 style="display: inline;">
             <a href="./index.html"
                 style="text-decoration: none; color: lightsalmon">
-                The Webpage of 
+                Jacob Stegenga's Webpage
             </a>
             <h4 style="display: inline;">
-                <a class="inline_a" href="">jestegs at gmail dot com</a>
+                <a class="inline_a" href="mailto:jestegs@gmail.com">jestegs at gmail dot com</a>
             </h4>
         </h1>
 
@@ -34,6 +34,8 @@
         </div>
 
         <hr class="divider">
+        
+        <p style="text-align: center">(a warning, this website may not look correct on mobile)</p>
 
         <div class="scrollArea">
             <div id="home" class="contentBox">
@@ -43,7 +45,7 @@
                 <h3>Hi!</h3>
                 <hr class="divider">
                 <p>
-                    I'm Jacob Stegenga, this is a website where I post various updates about my life, projects, and ideas, 
+                    I'm Jacob Stegenga. This is a website where I post various updates about my life, projects, and ideas, 
                     and is just generally a place to compile and organize myself online.
                 </p>
                 <p>
@@ -60,11 +62,27 @@
                         target="_blank" rel="noreferrer noopener">
                         itch.io
                     </a> 
-                    pages above, but I also do some <a class="inline_a" href="./gallery.html">Art</a>, 
-                    keep a <a class="inline_a" href="./dreams.html">Dream Journal</a>, and 
-                    may (hopefully) get around to some 
-                    <a class="inline_a" href="./notebook.html">Writing</a> about topics that interest me.
+                    pages above, but I also do some 
+                    <a class="inline_a" href="./gallery.html">Art</a>
+                    , keep a 
+                    <a class="inline_a" href="./dreams.html">Dream Journal</a>
+                    , and may (hopefully) get around to some 
+                    <a class="inline_a" href="./notebook.html">Writing</a>
+                    about some topics that interest me.
                 </p>
+                <!--
+                <p> add this to writing section after editing
+                    My format for this site is somewhat of a rejection of the instant-feedback
+                    mechanisms of social media. I'd love for personal websites to become
+                    mainstream again like they were during the era of Geocities and the like,
+                    where people treated their posts with a little more care than they do now.
+                    In my experience, social media is good for some things, but those things definitely
+                    do not include constructive discussion, and posts are suprisingly lacking in personality,
+                    per the structure of the apps. It is time consuming and difficult to keep up with writing
+                    significant posts, so nobody should expect them often, but hopefully they are more enriching
+                    to the readers.
+                </p>
+                -->
                 <p>
                     Thank you for checking me out, I hope you enjoy your stay :).
                 </p>
@@ -78,14 +96,16 @@
                 <h2>Projects</h2>
                 <hr class="divider">
                 <hr class="divider">
-                <div class="project_info">
+
+                <div class="project_info"><!-- dream journal -->
                     <h3>
                         <a class="inline_a"
                             href="https://github.com/jestegs/dream-journaller"
                             target="_blank"
                             rel="noreferrer noopener">
-                            Dream Journaller
+                            Dream Journaller - 2021
                         </a>
+                        <h4>Python: sqlite3, PySide2; SQL, Qt</h4>
                     </h3>
                     <hr class="divider">
                     <p>
@@ -109,16 +129,47 @@
                         There are still a few bugs I have to iron out and minor features to add, but despite being
                         called Dream Journaller, it can be used journal anything in a simple and distraction free way.
                     </p>
-                </div>
+                </div><!--dream journal-->
+
                 <hr class="divider">
-                <div class="project_info">
+
+                <div class="project_info"><!--astar-->
+                    <h3>
+                        <a class="inline_a" 
+                            href="https://github.com/jestegs/py-game_a-star_project" 
+                            target="_blank" 
+                            rel="noreferrer noopener">
+                            A* Pathfinding Implementation - 2021
+                        </a>
+                        <h4>Python: pygame</h4>
+                    </h3>
+                    <hr class="divider">
+                    <p>
+                        This is a duo-project my classmate and I did for our principles of A.I. class.
+                    </p>
+                    <p>
+                        It's a pretty straight forward implementation of the popular A-Star pathfinding
+                        algorithm, which is a more optimal version of Dijkstra's pathfinding algorithm.
+                    </p>
+                    <p>
+                        We made it a priority to represent visually what is going on while the algorithm
+                        does its thing and to let the user play around with the environment to see how it
+                        responds. I don't think either of us have gotten around to extending the user
+                        interfacing options like we had hoped, but maybe I'll return to it one day.
+                    </p>
+                </div><!--astar-->
+
+                <hr class="divider">
+
+                <div class="project_info"><!--Space Sim-->
                     <h3>
                         <a class="inline_a"
                             href="https://catmilk.itch.io/spacecraft-prototype"
                             target="_blank"
                             rel="noreferrer noopener">
-                            Spacecraft Prototype
+                            Spacecraft Prototype - 2021
                         </a>
+                        <h4>Godot: GDscript</h4>
                     </h3>
                     <hr class="divider">
                     <p>
@@ -151,35 +202,10 @@
                     <p>
                         We'll see where this goes...
                     </p>
-                </div>
-                <hr class="divider">
-                <div class="project_info">
-                    <h3>
-                        <a class="inline_a" 
-                            href="https://github.com/jestegs/py-game_a-star_project" 
-                            target="_blank" 
-                            rel="noreferrer noopener">
-                            A* Pathfinding Implementation
-                        </a>
-                    </h3>
-                    <hr class="divider">
-                    <p>
-                        This is a duo-project my classmate and I did for our principles of A.I. class.
-                    </p>
-                    <p>
-                        It's a pretty straight forward implementation of the popular A-Star pathfinding
-                        algorithm, which is a more optimal version of Dijkstra's pathfinding algorithm.
-                    </p>
-                    <p>
-                        We made it a priority to represent visually what is going on while the algorithm
-                        does its thing and to let the user play around with the environment to see how it
-                        responds. I don't think either of us have gotten around to extending the user
-                        interfacing options like we had hoped, but maybe I'll return to it one day.
-                    </p>
-                </div>
-            </div>
-        </div>
+                </div><!--Space sim-->
+                
+            </div><!-- projects -->
+        </div><!-- scroll area -->
         <div class="copyright">Copyright © 2021 Jacob Stegenga</div>
     </body>
-
 </html>

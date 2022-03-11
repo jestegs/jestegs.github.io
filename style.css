@@ -1,4 +1,5 @@
 body {
+    font-family: Cambria;
     background-color: darkslateblue;
     color: lightsalmon;
 
@@ -70,8 +71,7 @@ body {
 .picGallery img {
     display: inline;
     border-radius: 5%;
-    max-height: 400px;
-    min-height: 400px;
+    height: 400px;
 }
 
 .inline_a {
