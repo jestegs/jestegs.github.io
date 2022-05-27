@@ -1,0 +1,84 @@
+::-webkit-scrollbar{
+    background: #deaf83;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid #deaf83;
+    background:#411c0f;
+}
+::-webkit-scrollbar-button{
+    border: 1px solid #deaf83;
+    background:#411c0f;
+}
+.scrollArea {
+    height: 75vh;
+    overflow: scroll;
+
+    -ms-overlow-style: none; /*IE, Edge*/
+    scrollbar-width: none; /*FFox*/
+}
+/*Chrome, safari, opera*/
+.scrollArea::-webkit-scrollbar {
+    display:none;
+}
+
+.contentBox {
+	overflow: auto;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+body
+{
+	font-family: Cambria;
+	background-color: #deaf83;
+	color: #411c0f;
+
+	border-color: #411c0f;
+}
+
+.divider {
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a
+{
+	color: #911818;
+}
+
+.inline_a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid;
+}
+
+.inline_a:hover {
+    background-color: #411c0f;
+    color: #deaf83;
+    border-color: #411c0f;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    border: 1px solid;
+    padding: 2px;
+    margin: 5px;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #411c0f;
+    color: #deaf83;
+    border-color: #411c0f;
+}
